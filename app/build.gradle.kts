@@ -193,7 +193,7 @@ android {
 
     base {
         // sitara, sitara-chroot or sitara-x86_64
-        archivesName.set("Sitara$apkSuffix")
+        archivesName.set("sitara$apkSuffix")
     }
 
     compileOptions {
