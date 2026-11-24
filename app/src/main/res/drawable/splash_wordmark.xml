@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Compact Sitara star for Android 12 splash branding. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+    <path android:fillColor="#FF9FD8FF" android:pathData="M100,16C103,36 112,45 132,48C112,51 103,60 100,80C97,60 88,51 68,48C88,45 97,36 100,16Z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M100,25C102,41 107,46 123,48C107,50 102,55 100,71C98,55 93,50 77,48C93,46 98,41 100,25Z" />
+</vector>
