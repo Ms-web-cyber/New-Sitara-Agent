@@ -23,6 +23,6 @@ object HermesMonitor {
     private suspend fun record(c: Conversation) {
         if (!HermesPreferences.enabled.value) return
         val title = c.title.trim().ifBlank { "Untitled task" }
-        HermesBridgeClient.recordOutcome("Completed task: $title (agent: ${c.agent.name})", ProjectCheckpoints.pathOf(c.workspaceUri))
+        HermesBridgeClient.recordOutcome("Completed task: $title (agent: ${c.agent.name})", ProjectCheckpoints.pathOf(c.workspaceUri) ?: "")
     }
 }
